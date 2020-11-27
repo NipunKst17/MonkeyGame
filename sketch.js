@@ -109,7 +109,7 @@ function obstacles() {
     obstacle.lifetime = 220;
     obstacleGroup.add(obstacle);
     //obstacle.debug = "true";
-    //obstacle.setCollider("circle", obstacle.x, obstacle.y);
+    obstacle.setCollider("circle", 0, 0, 100);
     
   }
 }
